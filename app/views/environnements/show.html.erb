@@ -1,0 +1,11 @@
+<% if Rails.env.development? %>
+  Debug info
+  <br />
+  <pre>
+    <%= request.inspect %>
+  </pre>
+<% end %>
+
+<%= Rails.env %>
+
+<%= "Coucou" %>
